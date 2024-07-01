@@ -1,0 +1,316 @@
+body {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #582f0e;
+    color: #7f4f24;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #936639;
+    padding: 20px;
+    color: #a68a64;
+}
+
+.logo img {
+    width: 150px;
+    margin-right: 15px;
+}
+
+.logo span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #b6ad90;
+    text-decoration: none;
+}
+
+.banner {
+    background: url('https://ibb.co/2yGVCF1') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a68a64;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner-content h1 {
+    font-size: 3em;
+    margin: 0;
+    font-style: italic;
+}
+
+.banner-content button {
+    background: #c2c5aa;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #656d4a;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.categories {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #a4ac86;
+}
+
+.categories h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #656d4a;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category {
+    background: #656d4a;
+    border-radius: 50%;
+    margin: 15px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.category i {
+    font-size: 2em;
+    color: #a68a64;
+}
+
+.category p {
+    margin: 5px 0 0;
+    color: #a68a64;
+}
+
+.category:hover {
+    transform: scale(1.1);
+}
+
+.category .fa-moon {
+    font-size: 2em;
+    color: #a68a64;
+}
+
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #b6ad90;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #656d4a;
+}
+
+.find-events {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #c2c5aa;
+}
+
+.find-events h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #656d4a;
+}
+
+.find-events input, .find-events button {
+    padding: 10px;
+    font-size: 1em;
+    margin: 5px;
+}
+
+.find-events button {
+    background: #a4ac86;
+    border: none;
+    color: #656d4a;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.event-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.event {
+    background: #b6ad90;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.event img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.event h3 {
+    margin: 10px 0;
+}
+
+.create-events {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #a4ac86;
+}
+
+.create-events h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #656d4a;
+}
+
+.create-account {
+    background-image: url('https://ibb.co/Yt4Vdbn');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: #a68a64;
+}
+
+.create-account h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.create-account p {
+    color: #656d4a;
+    margin-bottom: 10px;
+}
+
+.create-account select {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.login {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #b6ad90;
+}
+
+.login h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #656d4a;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login input, .login select, .login button {
+    padding: 10px;
+    font-size: 1em;
+    margin: 5px;
+}
+
+.login button {
+    background: #a4ac86;
+    border: none;
+    color: #656d4a;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.social-media {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #656d4a;
+}
+
+.social-media h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #a68a64;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    color: #a68a64;
+    font-size: 2em;
+    margin: 0 15px;
+}
+
+.hashtags {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #c2c5aa;
+}
+
+.hashtags h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #656d4a;
+}
+
+.hashtag-list {
+    display: flex;
+    justify-content: center;
+}
+
+.hashtag-list button {
+    background-color: #936639;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background: #a4ac86;
+    padding: 20px;
+    text-align: center;
+    color: #656d4a;
+}
